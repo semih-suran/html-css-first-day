@@ -1,6 +1,6 @@
 body {
   background-color: blueviolet;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
 }
 
 header {
@@ -46,44 +46,53 @@ p {
 }
 
 #bottom-section {
-    text-align: center;
+  text-align: center;
 }
 
 #contributors {
-    font-size: 20px;
-    text-decoration: none;
-    background-color: blueviolet;
-    font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: blueviolet;
+  font-weight: 700;
 }
 
 .container {
-    display: grid;
-    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
-    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
-
+  display: grid;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+  grid-area: auto;
+  gap: 5px;
 }
 
 .item-1 {
-    grid-row: 1 / 12;
-    grid-column: 1 / 12;
-    text-align: center;
-
+  grid-row: 1 / 12;
+  grid-column: 1 / 12;
+  text-align: center;
 }
 
 .item-2 {
-    grid-row: 7 / 10;
-    grid-column: 1 / 4;
-    align-self: center;    
+  grid-row: 7 / 10;
+  grid-column: 1 / 4;
+  align-self: center;
+  background: fixed;
+  background-color: rgb(23, 32, 127);
+  border-radius: 20px;
 }
 
 .item-3 {
-    grid-row: 7 / 10;
-    grid-column: 4 / 8;
-    text-align: center;
+  grid-row: 7 / 10;
+  grid-column: 4 / 8;
+  text-align: center;
+  background: fixed;
+  background-color: rgb(83, 94, 216);
+  border-radius: 20px;
 }
 
 .item-4 {
-    grid-row: 7 / 10;
-    grid-column: 8 / 12;
-    text-align: center;
+  grid-row: 7 / 10;
+  grid-column: 8 / 12;
+  text-align: center;
+  background: fixed;
+  background-color: rgb(111, 23, 127);
+  border-radius: 20px;
 }
