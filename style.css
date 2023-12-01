@@ -1,0 +1,89 @@
+body {
+  background-color: blueviolet;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#pawnSign {
+  border-radius: 16%;
+  width: 840px;
+  height: 420px;
+  border: 10px;
+  text-align: justify;
+}
+
+#mixedBagLogo {
+  border-radius: 50%;
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+ul {
+  color: aqua;
+}
+
+ol {
+  color: yellow;
+}
+
+p {
+  font-size: 25px;
+}
+
+#bottom-section {
+    text-align: center;
+}
+
+#contributors {
+    font-size: 20px;
+    text-decoration: none;
+    background-color: blueviolet;
+    font-weight: 700;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+
+}
+
+.item-1 {
+    grid-row: 1 / 12;
+    grid-column: 1 / 12;
+    text-align: center;
+
+}
+
+.item-2 {
+    grid-row: 7 / 10;
+    grid-column: 1 / 4;
+    align-self: center;    
+}
+
+.item-3 {
+    grid-row: 7 / 10;
+    grid-column: 4 / 8;
+    text-align: center;
+}
+
+.item-4 {
+    grid-row: 7 / 10;
+    grid-column: 8 / 12;
+    text-align: center;
+}
